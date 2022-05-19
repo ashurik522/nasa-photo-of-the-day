@@ -25,13 +25,15 @@ const StyledFooter = styled.div`
 
 export default function Footer(){
 
+
+
     return (
         <StyledFooter>
         <footer>
-            <div className="icon">
+            <div className="icon linkedIn">
                 <FontAwesomeIcon icon={faLinkedin} />
             </div>
-            <div className="icon">
+            <div className="icon gitHub">
                 <FontAwesomeIcon icon={faGithub} />
             </div>
         </footer>
