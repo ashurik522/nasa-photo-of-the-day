@@ -35,7 +35,7 @@ console.log(props)
         <div className="bottom-container">
             <div className="img-info">
                 <h2 className="title"> {props.data.title} </h2>
-                <h2 className="copyright"> {props.data.copyright} </h2>
+                <h2 className="copyright">Photographed By: {props.data.copyright} </h2>
             </div>
             <p className="explanation"> {props.data.explanation} </p>
         </div>
