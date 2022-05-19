@@ -4,6 +4,7 @@ import styled from "styled-components";
 const StyledInfo = styled.div`
     color: lightseagreen;
     font-family: 'Montserrat', sans-serif;
+    padding-bottom: 1%;
 
     h2{
         font-size: 1.5rem;
