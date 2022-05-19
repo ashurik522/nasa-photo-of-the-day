@@ -17,9 +17,11 @@ const StyledInfo = styled.div`
     }
 
     p{
+        color: white;
         font-size: 1.2rem;
         line-height: 1.3;
         margin: 2% 10% 0% 10%
+        
         
         
     }
