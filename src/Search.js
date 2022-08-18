@@ -8,9 +8,14 @@ const StyledSearch = styled.div`
     justify-content: center;
     color: white;
     margin-bottom: 5%;
+    color: lightseagreen;
+    font-family: "Montserrat", sans-serif;
   }
   button {
     margin-left: 1%;
+  }
+  label {
+    margin-right: 10px;
   }
 `;
 
@@ -38,7 +43,7 @@ export default function Search(props) {
   return (
     <StyledSearch>
       <div className="search-container">
-        <label for="date">Chose date:</label>
+        <label for="date">Chose date: </label>
         <input type="date" name="date" id="date" />
         <button type="submit" onClick={onSubmit}>
           Submit
