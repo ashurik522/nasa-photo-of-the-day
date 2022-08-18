@@ -5,11 +5,12 @@ import { useState } from "react";
 const StyledSearch = styled.div`
   .search-container {
     display: flex;
-    justify-content: space-around;
-    margin-left: 30%;
-    margin-right: 30%;
+    justify-content: center;
     color: white;
     margin-bottom: 5%;
+  }
+  button {
+    margin-left: 1%;
   }
 `;
 
