@@ -23,6 +23,7 @@ const StyledFooter = styled.div`
 
     .icon: hover {
         box-shadow: 0px 0px 5px 5px white;
+        transform: scale(1.1);
     }
 
 `
