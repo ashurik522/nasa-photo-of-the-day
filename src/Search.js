@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { useState } from "react";
 
 const StyledSearch = styled.div`
   .search-container {
@@ -25,6 +24,7 @@ export default function Search(props) {
   const onSubmit = (e) => {
     e.preventDefault();
     props.setDate(`&date=${dateInput.value}`);
+    dateInput.value = "";
   };
 
   const random = (e) => {

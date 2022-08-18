@@ -14,7 +14,6 @@ function App() {
     "https://api.nasa.gov/planetary/apod?api_key=HkGVhuP81wqfTAUDHhlbf3WEbQckfUlMo2OfHEYx";
 
   useEffect(() => {
-    console.log("date");
     axios
       .get(`${nasaApod}${date}`)
       .then((res) => {
